@@ -63,3 +63,49 @@ $(document).on("click",".m-lines",function() {
         $('.mobail_menu').removeClass('open');
     }
 }); 
+
+
+
+
+$(window).scroll(function() {
+	if(!$('.back_home').length) return;
+	
+    var fixtop = $('main').offset().top + 120;
+    var fixbottom = $('main').height() + ($('main').offset().top) - $('.back_home').height();
+    var fixbottomTop = $('main').height() - $('.back_home').height() +320;
+    var scroll = $(window).scrollTop();
+
+    if ($('.back_home a').length > 0) { 
+
+        if(scroll >= fixtop && scroll <= fixbottom) {
+            $('.back_home').css({
+                position: 'fixed',
+				top: '76' + '%',
+				display: 'block'
+            });
+        }
+
+        if(scroll < fixtop ) {
+            $('.back_home').css({
+				position: 'static',
+				display: 'none'
+            });
+        }else{
+            if(scroll >= fixbottom) {
+                $('.back_home').css({
+                    position: 'absolute',
+					top: fixbottomTop + 'px',
+					display: 'block'
+                });
+            }
+        }
+
+ 
+    }else{
+        $('.back_home').css({
+			position: 'static',
+			display: 'none'
+        });
+    }
+});
+
