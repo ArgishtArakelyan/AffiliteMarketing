@@ -91,7 +91,7 @@ $(document).on("click",".popup_menu .bottom-wrap .right",function() {
 $(window).scroll(function() {
 	if(!$('.back_home').length) return;
 	
-    var fixtop = $('main').offset().top + 120;
+    var fixtop = $('main').offset().top + 10;
     var fixbottom = $('main').height() + ($('main').offset().top) - $('.back_home').height();
     var fixbottomTop = $('main').height() - $('.back_home').height() +320;
     var scroll = $(window).scrollTop();

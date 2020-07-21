@@ -4,7 +4,7 @@ html {
 
 body,
 html {
-  background: #fff;
+  background: #F7F7F7;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -76,6 +76,22 @@ a {
   color: #222d43;
   cursor: pointer;
   text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+  color: #BDBDBD;
+}
+
+:-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+::-ms-input-placeholder {
+  color: #BDBDBD;
+}
+
+::placeholder {
+  color: #BDBDBD;
 }
 
 .overlay {
@@ -164,6 +180,19 @@ a {
 .eff1 {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+}
+
+.input-wrap input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1.4px solid #C1C1C1;
+  border-radius: 4px;
+  outline: none;
+  padding: 21px 28px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 108.34%;
+  color: #BDBDBD;
 }
 
 .inner-wrap {
@@ -394,8 +423,12 @@ header .menu ul li i {
 
 main {
   width: 100%;
-  min-height: calc(100vh - 437px);
+  min-height: calc(100vh - 433px);
   display: inline-block;
+}
+
+main.min150 {
+  min-height: calc(100vh - 153px);
 }
 
 main section.welcome_wrap {
@@ -930,6 +963,282 @@ main section.breadcrumb ul li a {
 
 main section.breadcrumb ul li a:hover {
   color: #D12121;
+}
+
+main section.signin {
+  padding-bottom: 140px;
+}
+
+main section.signin .inner-wrap h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #D12121;
+}
+
+main section.signin .inner-wrap .signin-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 36px;
+}
+
+main section.signin .inner-wrap .signin-wrap .left-wrap {
+  margin-right: 64px;
+  padding: 40px 38px 64px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+main section.signin .inner-wrap .signin-wrap .left-wrap h1 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 45px;
+  color: #545454;
+}
+
+main section.signin .inner-wrap .signin-wrap .left-wrap .input-wrap {
+  margin-top: 26px;
+}
+
+main section.signin .inner-wrap .signin-wrap .left-wrap .forgot_pass {
+  margin-top: 13px;
+  font-weight: normal;
+  display: block;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3F68B7;
+}
+
+main section.signin .inner-wrap .signin-wrap .left-wrap .btn {
+  border: 0;
+  padding: 19px 93px;
+  margin-top: 13px;
+  background: #365796;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+main section.signin .inner-wrap .signin-wrap .right-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 64px;
+  padding: 40px 38px 64px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+main section.signin .inner-wrap .signin-wrap .right-wrap h1 {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 45px;
+  color: #545454;
+}
+
+main section.signin .inner-wrap .signin-wrap .right-wrap p {
+  margin-top: 19px;
+  max-width: 404px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #585858;
+}
+
+main section.signin .inner-wrap .signin-wrap .right-wrap .btn {
+  border: 0;
+  padding: 19px 93px;
+  margin-top: 67px;
+  background: #365796;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  display: inline-block;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+main section.Sign-Up {
+  margin-bottom: 100px;
+}
+
+main section.Sign-Up .inner-wrap h1 {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #D12121;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 82px;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .left-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .left-wrap h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #686868;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .left-wrap .input-wrap {
+  margin-top: 26px;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .left-wrap .btn {
+  margin-top: 40px;
+  border: 0;
+  padding: 16px 42px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 79.84%;
+  color: #FFFFFF;
+  background: #365796;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 300px;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2B2B2B;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .list {
+  margin-top: 24px;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .list p {
+  position: relative;
+  text-transform: uppercase;
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2B2B2B;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .list p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #000000;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .SignIn {
+  text-align: right;
+  margin-top: 80px;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .SignIn span {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #717171;
+}
+
+main section.Sign-Up .inner-wrap .Sign-Up .right-wrap .SignIn .btn {
+  background: transparent;
+  text-transform: capitalize;
+  margin-left: 26px;
+  padding: 14px 30px;
+  border: 2px solid #365696;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #464646;
+}
+
+main section.Reset-Password {
+  margin-bottom: 120px;
+}
+
+main section.Reset-Password .inner-wrap {
+  text-align: center;
+  max-width: 792px;
+}
+
+main section.Reset-Password .inner-wrap h1 {
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 119.34%;
+  color: #494949;
+}
+
+main section.Reset-Password .inner-wrap p {
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 79.84%;
+  color: #757575;
+}
+
+main section.Reset-Password .inner-wrap .input-wrap {
+  margin-top: 36px;
+}
+
+main section.Reset-Password .inner-wrap .input-wrap input {
+  border: 1px solid #000000;
+}
+
+main section.Reset-Password .inner-wrap .btn {
+  margin-top: 68px;
+  border: 0;
+  padding: 16px 42px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 79.84%;
+  color: #FFFFFF;
+  background: #365796;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 8px;
+  text-transform: capitalize;
 }
 
 main section.my_account {
