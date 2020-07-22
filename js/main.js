@@ -33,6 +33,28 @@ $(document).ready(function() {
 	        }
 	    }
     });
+ 
+    $('.review .slider .item-wrap').owlCarousel({
+	    loop:true,
+        nav: true,
+        margin: 20,
+		dots:true,
+		autoplayHoverPause:true,
+        navText : ["<img src='../img/nav4.png'>","<img src='../img/nav5.png'>"],
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        },
+	        1000:{
+	            items:3
+	        }
+        }
+        
+
+    });
 
     $('.product_wrap .slider').owlCarousel({
 	    loop:true,

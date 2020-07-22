@@ -859,8 +859,6 @@ main{
                                         color: #FF8A00;
                                     }
                                 }
-                            
-     
                             }
                         }
         
@@ -1230,6 +1228,338 @@ main{
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
                     border-radius: 8px;
                     text-transform: capitalize;
+                }
+            }
+        }
+
+        &.privacyPolicyTermsOfUs{
+            .inner-wrap{
+                h1{
+                    font-weight: bold;
+                    font-size: 35px;
+                    line-height: 136.84%;
+                    color: #000000;
+                    margin-bottom: 30px;
+                }
+
+                p{
+                    font-weight: normal;
+                    font-size: 21px;
+                    line-height: 158.34%;
+                    color: #565656;
+                    margin-bottom: 32px;
+                    &.blod{
+                         font-weight: bold;
+                    }
+
+                    a{
+                        color: #3F68B7;
+                    }
+                }
+
+                h2{
+                    margin-bottom: 24px;
+                    font-weight: normal;
+                    font-size: 35px;
+                    line-height: 136.84%;
+                    color: #000000;
+                }
+            }
+        }
+
+        &.review{
+            margin-bottom: 8px;
+            .top-wrap{
+                padding-bottom: 100px;
+                .inner-wrap{
+                    .left-wrap{
+                        float: left;
+                        width: 75%;
+                        padding-right: 80px;
+
+                        .text{
+                            h1{
+                                font-weight: bold;
+                                font-size: 50px;
+                                line-height: 60px;
+                                color: #D12121;
+                            }
+
+                            p{
+                                margin-top: 48px;
+                                font-weight: normal;
+                                font-size: 23px;
+                                line-height: 144.84%;
+                                color: #000000;
+                            }
+                        }
+
+
+                        .slider{
+                            margin-top: 72px;
+                            
+                            .owl-stage-outer{
+                                padding-bottom: 12px;
+                                                                
+                                .owl-stage{
+                                    display: flex;
+                                }
+                                .owl-item {
+                                    float: none;
+                                    margin: 4px;
+                                }
+                            }
+
+                            .owl-nav{
+                                img{
+                                    width: 16px;
+                                }
+                                .owl-prev{
+                                    left: 0;
+                                    top: 50%;
+                                    -webkit-transform: translateY(-50%);
+                                    transform: translateY(-50%);
+                                    position: absolute;
+                                }
+
+                                .owl-next{
+                                    right: 0;
+                                    top: 50%;
+                                    -webkit-transform: translateY(-50%);
+                                    transform: translateY(-50%);
+                                    position: absolute;
+                                }
+
+                            }
+                            .item-wrap{
+                                padding: 0 40px;
+                                .item{
+                                    padding: 20px;
+                                    background: #FFFFFF;
+                                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                    border-radius: 11px;
+                                    height: 100%;
+                                    .img{
+                                        text-align: center;
+                                        img{
+                                            max-width: 180px;
+                                            display: block;
+                                            margin: auto;
+                                        }
+                                    }
+
+                                    .btn{
+                                        margin-top: 16px;
+                                        border: 0;
+                                        padding: 10px 16px;
+                                        width: 100%;
+                                        background: #EDEDED;
+                                        border-radius: 5px;
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        color: #474747;
+                                    }
+ 
+                                    h1{
+                                        margin-top: 20px; 
+                                        font-weight: 600;
+                                        font-size: 14px;
+                                        line-height: 108.84%;
+                                        color: #000000;
+                                    }
+
+                                    .price{
+                                        margin-top: 20px;
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: #D12121;
+                                    }
+
+                                    .reviews{
+                                        margin-top: 14px;
+                                        .stars{
+                                            &.st_0{
+                                                i{
+                                                    color: #DEDEDE;
+                                                }
+                                            }
+                                        
+                                            &.st_1{
+                                                i{
+                                                    color: #DEDEDE;
+                                                    &:nth-child(1){
+                                                        color: #FF8A00;
+                                                    }
+                                                }
+                                            }
+                                            &.st_2{
+                                                i{
+                                                    color: #DEDEDE;
+                                                    &:nth-child(1),&:nth-child(2){
+                                                        color: #FF8A00;
+                                                    }
+                                                }
+                                            }
+                                            &.st_3{
+                                                i{
+                                                    color: #DEDEDE;
+                                                    &:nth-child(1),&:nth-child(2),&:nth-child(3){
+                                                        color: #FF8A00;
+                                                    }
+                                                }
+                                            }
+                                            &.st_4{
+                                                i{
+                                                    color: #DEDEDE;
+                                                    &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){
+                                                        color: #FF8A00;
+                                                    }
+                                                }
+                                            }
+                                            &.st_5{
+                                                i{
+                                                    color: #FF8A00;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    p{
+                                        margin-top: 20px;
+                                        font-weight: normal;
+                                        font-size: 14px;
+                                        line-height: 108.84%;
+                                        color: #000000;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .right-wrap{
+                        float: left;
+                        width: 25%;
+
+                        h1{
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 29px;
+                            color: #D12121;
+                            
+                        }
+                        .item-wrap{
+                            margin-top: 16px;
+                            .item{
+
+                                margin-bottom: 32px;
+                                .img{
+                                    padding: 16px;
+                                    background: #FFFFFF;
+                                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                    border-radius: 6px;
+                                    img{
+                                        margin: 42px auto 72px;
+                                        display: block;
+                                        max-width: 120px;
+                                        width: 100%;
+                                    }
+    
+                                    a{
+                                        display: inline-block;
+                                        padding: 8px 14px;
+                                        background: #262626;
+                                        font-weight: bold;
+                                        font-size: 20px;
+                                        color: #FFFFFF;
+
+                                    }
+                                }
+    
+                                h1{
+                                    margin-top: 16px;
+                                    font-weight: 500;
+                                    font-size: 29px;
+                                    line-height: 35px;
+                                    color: #D12121;
+                                }
+    
+                                .btn{ 
+                                    border: 0;
+                                    margin-top: 26px; 
+                                    background: #FFFFFF;
+                                    padding: 12px 24px;
+                                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                    border-radius: 4px;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    color: #424242;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottom-wrap{
+                .inner-wrap{
+                    .item-wrap{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .item{
+                            width: calc( 50% - 67px);
+                            margin-right: 134px;
+                            margin-bottom: 74px;
+                        
+                            &:nth-child(2n+2) {
+                                margin-right: 0 !important;
+                            }
+                            .block{
+                                background: #FFFFFF;
+                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                border-radius: 6px;
+                                padding: 36px 32px;
+                                a{
+                                    display: inline-block;
+                                    padding: 12px 24px;
+                                    background: #262626;
+                                    font-weight: bold;
+                                    font-size: 35px;
+                                    color: #FFFFFF;
+                                }
+
+                                img{
+                                    max-width: 340px;
+                                    display: block;
+                                    margin: 24px auto 32px;
+                                }
+
+                                h1{
+                                    font-weight: 600;
+                                    font-size: 32px;
+                                    line-height: 38px;
+                                    
+                                    color: #D12121;
+                                }
+
+                            }
+
+                            .btn{
+                                border: 0;
+                                display: block;
+                                margin: 40px auto 0;
+                                background: #FFFFFF;
+                                padding: 12px 24px;
+                                -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                                border-radius: 4px;
+                                font-weight: bold;
+                                font-size: 18px;
+                                color: #424242;
+                            }
+
+                        }
+                    }
                 }
             }
         }
