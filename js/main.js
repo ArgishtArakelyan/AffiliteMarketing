@@ -40,7 +40,7 @@ $(document).ready(function() {
         margin: 20,
 		dots:true,
 		autoplayHoverPause:true,
-        navText : ["<img src='../img/nav4.png'>","<img src='../img/nav5.png'>"],
+        navText : ["<img src='/wp-content/themes/blankslate/assets/img/nav4.png'>","<img src='/wp-content/themes/blankslate/assets/img/nav5.png'>"],
 	    responsive:{
 	        0:{
 	            items:1
