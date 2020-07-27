@@ -106,7 +106,18 @@ $(document).on("click",".popup_menu .bottom-wrap .right",function() {
 }); 
 
 
- 
+$(document).on("click",".setting .edit_information_btn",function() {
+    $(this).parents('.item').find('.edit-wrap').slideDown();
+
+    if($(this).parents('.item').find('.edit-wrap').css('display') == 'block'){
+        $(this).parent().parent('.hide').slideUp();
+    } 
+});
+
+$(document).on("click",".setting .cancel",function() {
+    $(this).parents('.edit-wrap').slideUp();
+    $(this).parents('.item').find('.hide').slideDown();
+});
 
 
 
@@ -154,3 +165,18 @@ $(window).scroll(function() {
 
 
 
+// dropdown-open
+$('.drop-toggle').on('click', function(e) {
+    $('.drop-toggle').not(this).removeClass('open');
+    $(this).toggleClass('open');
+    e.stopPropagation(); 
+});
+
+$('.dropdown-wrap').on('click', function(e) {
+     e.stopPropagation(); 
+});
+ 
+$('html').click(function() {
+    $('.drop-toggle').removeClass('open');
+});
+// dropdown-open
