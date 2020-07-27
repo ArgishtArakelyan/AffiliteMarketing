@@ -310,6 +310,15 @@ a {
   position: relative;
 }
 
+.my_mccount_dropdown > span {
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D1D1D1;
+  margin-bottom: 4px;
+}
+
 .my_mccount_dropdown > a {
   border: 0 !important;
   padding: 0;
@@ -331,7 +340,7 @@ a {
   padding: 0;
   left: initial;
   right: 0;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 
 .my_mccount_dropdown .dropdown-wrap .dropdown-m {
@@ -378,7 +387,7 @@ a {
 }
 
 .drop-toggle.open .dropdown-wrap {
-  margin-top: 24px;
+  margin-top: 12px;
   opacity: 1;
   visibility: visible;
 }

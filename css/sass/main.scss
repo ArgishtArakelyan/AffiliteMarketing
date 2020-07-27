@@ -356,7 +356,14 @@ a {
 
 .my_mccount_dropdown{
     position: relative;
-
+    >span{
+        display: block;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #D1D1D1;
+        margin-bottom: 4px;
+    }
     >a{
         border: 0 !important;
         padding: 0;  
@@ -378,7 +385,7 @@ a {
         padding: 0;
         left: initial;
         right: 0;
-        margin-top: 32px;
+        margin-top: 24px;
         .dropdown-m{
             background: #FFFFFF;
             border-top: solid 1px #F5F5F5;
@@ -426,7 +433,7 @@ a {
             }
         }
         .dropdown-wrap {
-            margin-top: 24px;
+            margin-top: 12px;
             opacity: 1;
             visibility: visible;
         }
