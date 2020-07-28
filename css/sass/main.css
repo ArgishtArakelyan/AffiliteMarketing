@@ -392,6 +392,10 @@ a {
   visibility: visible;
 }
 
+form {
+  margin: 0;
+}
+
 header {
   height: 90px;
   background: #D12121;
@@ -2195,6 +2199,15 @@ main section.my_account .inner-wrap .right-wrap .btn {
   color: #252525;
 }
 
+.setting .inner-wrap li {
+  display: block;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.setting .inner-wrap li:last-child {
+  border: 0;
+}
+
 .setting .inner-wrap .item-wrap {
   margin-top: 16px;
   margin-bottom: 138px;
@@ -2203,15 +2216,7 @@ main section.my_account .inner-wrap .right-wrap .btn {
   overflow: hidden;
 }
 
-.setting .inner-wrap .item-wrap .item {
-  border-bottom: 1px solid #BBBBBB;
-}
-
-.setting .inner-wrap .item-wrap .item:last-child {
-  border: 0;
-}
-
-.setting .inner-wrap .item-wrap .item .item_m {
+.setting .inner-wrap .item-wrap .item_m {
   padding: 40px 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2224,57 +2229,57 @@ main section.my_account .inner-wrap .right-wrap .btn {
           justify-content: space-between;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap {
+.setting .inner-wrap .item-wrap .edit-wrap {
   background: #E6E6E6;
   display: none;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap.edit_pass .item_m {
+.setting .inner-wrap .item-wrap .edit-wrap.edit_pass .item_m {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap.edit_pass .item_m .left {
+.setting .inner-wrap .item-wrap .edit-wrap.edit_pass .item_m .left {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap.edit_pass .item_m .left .input-wrap {
+.setting .inner-wrap .item-wrap .edit-wrap.edit_pass .item_m .left .input-wrap {
   margin-bottom: 18px;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap.edit_pass .item_m .left .input-wrap:first-child {
+.setting .inner-wrap .item-wrap .edit-wrap.edit_pass .item_m .left .input-wrap:first-child {
   margin-bottom: 53px;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap.edit_pass .item_m .left .input-wrap:last-child {
+.setting .inner-wrap .item-wrap .edit-wrap.edit_pass .item_m .left .input-wrap:last-child {
   margin: 0;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .left {
+.setting .inner-wrap .item-wrap .edit-wrap .left {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .left span {
+.setting .inner-wrap .item-wrap .edit-wrap .left span {
   width: 100%;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .left .input-wrap input {
+.setting .inner-wrap .item-wrap .edit-wrap .left .input-wrap input {
   padding: 15px 22px;
   font-weight: normal;
   font-size: 18px;
   color: #B8B8B8;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .right {
+.setting .inner-wrap .item-wrap .edit-wrap .right {
   margin-left: 100px;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .right .btn {
+.setting .inner-wrap .item-wrap .edit-wrap .right .btn {
   padding: 12px 26px;
   font-weight: 500;
   font-size: 23px;
@@ -2283,15 +2288,15 @@ main section.my_account .inner-wrap .right-wrap .btn {
   margin-left: 18px;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .right .btn.save {
+.setting .inner-wrap .item-wrap .edit-wrap .right .btn.save {
   background: #365696;
 }
 
-.setting .inner-wrap .item-wrap .item .edit-wrap .right .btn.cancel {
+.setting .inner-wrap .item-wrap .edit-wrap .right .btn.cancel {
   background: #D12121;
 }
 
-.setting .inner-wrap .item-wrap .item .left {
+.setting .inner-wrap .item-wrap .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2300,7 +2305,7 @@ main section.my_account .inner-wrap .right-wrap .btn {
           align-items: center;
 }
 
-.setting .inner-wrap .item-wrap .item .left h1 {
+.setting .inner-wrap .item-wrap .left h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -2308,14 +2313,14 @@ main section.my_account .inner-wrap .right-wrap .btn {
   min-width: 110px;
 }
 
-.setting .inner-wrap .item-wrap .item .left span {
+.setting .inner-wrap .item-wrap .left span {
   font-weight: normal;
   font-size: 21px;
   color: #919191;
   margin-left: 48px;
 }
 
-.setting .inner-wrap .item-wrap .item .right .btn {
+.setting .inner-wrap .item-wrap .right .btn {
   font-weight: 500;
   font-size: 21px;
   color: #527BCE;

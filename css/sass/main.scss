@@ -439,7 +439,7 @@ a {
         }
     }
 }
-
+form{margin: 0;}
 
 
 
@@ -2142,17 +2142,21 @@ main{
             color: #252525;
         }
 
+        li{
+            display: block;
+            border-bottom: 1px solid #BBBBBB;
+            &:last-child{
+                border: 0;
+            }
+        }
+
         .item-wrap{
             margin-top: 16px;
             margin-bottom: 138px;
             border: 1px solid #BBBBBB;
             border-radius: 6px;
             overflow: hidden;
-            .item{
-                border-bottom: 1px solid #BBBBBB;
-                &:last-child{
-                    border: 0;
-                }
+            
                 .item_m{
                     padding: 40px 48px;
                     display: flex;
@@ -2250,7 +2254,7 @@ main{
                         text-transform: capitalize;
                     }
                 }
-            }
+            
         }
     }
 }
